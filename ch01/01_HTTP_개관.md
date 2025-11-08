@@ -120,7 +120,7 @@ Content-Length: 150
 - TCP 와 IP 가 층을 이루는 패킷 교환 네트워크 프로토콜의 집합이며 실제 데이터를 전송하는 계층
 - TCP 는 오류 없는 데이터 전송 / 순서에 맞는 전달 / 조각 나지 않는 데이터 스트림을 보장
 
-![img.png](01_http_layer.png)
+![img.png](../../http-guide/이효석/images/01_http_layer.png)
 
 ### 1.6.2 접속, 그리고 IP 주소 그리고 포트 번호
 
@@ -172,14 +172,14 @@ Content-Length: 150
 - 다른 서버들의 중개자로 동작하는 서버, 주로 HTTP 트래픽을 다른 프로토콜로 변환하기 위해 사용
 - FTP URI 대한 HTTP 요청을 HTTP/FTP 게이트웨이가 처리하여 FTP 프로토콜을 통해 문서를 가져와서 클라이언트에 전달
 
-![img.png](01_http_http-ftp.png)
+![img.png](../../http-guide/이효석/images/01_http_http-ftp.png)
 
 ### 1.8.4 터널
 
 - 두 커넥션 사이의 RAW 데이터를 보여주지 않고 그대로 전달해주는 HTTP 어플리케이션
 - 터널을 통해 암호화된 SSL 트래픽을 웹 트래픽만 허용하는 사내 방화벽을 통과 시킬 수 있음
 
-![img.png](01_http-tunnel.png)
+![img.png](../../http-guide/이효석/images/01_http-tunnel.png)
 
 ### 1.8.5 에이전트
 

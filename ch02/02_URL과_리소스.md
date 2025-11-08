@@ -82,7 +82,7 @@
 - news : 특정 문서나 뉴스 그룹 접근용 프로토콜, RFC 1036 에 정의 / 단, 리소스의 위치를 충분히 포함하지 않는 특성을 가진다
 
 *ex) HTTP 와 HTTPS 계층도*  
-![img.png](02_http_https.png)
+![img.png](../../http-guide/이효석/images/02_http_https.png)
 
 ## 2.6 미래
 
