@@ -1,0 +1,126 @@
+/* HTTP Guide Custom Styles */
+
+/* 상큼한 오렌지색 커스터마이징 */
+:root {
+  --md-primary-fg-color: #ff9500;
+  --md-primary-fg-color--light: #ffb366;
+  --md-primary-fg-color--dark: #ff8400;
+  --md-accent-fg-color: #ffb300;
+}
+
+/* 전체 헤더 상큼한 오렌지색 통일 */
+.md-header {
+  background-color: #ff9500;
+  box-shadow: 0 2px 8px rgba(255, 149, 0, 0.3);
+}
+
+.md-header__button {
+  color: white;
+}
+
+/* 탭 제거 후 전체 배경 상큼한 오렌지 */
+.md-tabs {
+  background-color: #ff9500;
+}
+
+.md-tabs__link {
+  color: white;
+}
+
+.md-tabs__link--active {
+  color: white;
+  border-bottom-color: white;
+}
+
+/* 사이드바 스타일 */
+.md-sidebar {
+  background-color: white;
+}
+
+.md-sidebar__scrollwrap {
+  background-color: white;
+}
+
+/* 좌측 메뉴 텍스트 색 검정색 고정 */
+.md-nav__link {
+  color: #000000 !important;
+}
+
+.md-nav__link--active {
+  color: #000000 !important;
+  font-weight: 600;
+  border-left: 3px solid #ff9500;
+}
+
+.md-nav__link:hover {
+  color: #000000 !important;
+  background-color: #ffe0cc;
+}
+
+.md-nav__title {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+/* TOC 스타일 */
+.md-nav--secondary a.md-nav__link--active {
+  color: #000000 !important;
+  border-left: 3px solid #ff9500;
+}
+
+.md-nav--secondary a.md-nav__link {
+  color: #000000 !important;
+}
+
+/* 버튼 스타일 */
+.md-button {
+  background-color: #ff9500;
+  color: white;
+}
+
+.md-button:hover {
+  background-color: #ff8400;
+}
+
+/* 코드 블록 */
+.md-code {
+  background-color: #f5f5f5;
+  border-left: 3px solid #ff9500;
+}
+
+/* 강조 요소 */
+code {
+  background-color: #fff8e1;
+  color: #ff9500;
+}
+
+/* 링크 */
+a {
+  color: #ff9500;
+}
+
+a:hover {
+  color: #ff8400;
+}
+
+/* 제목 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  border-bottom: 2px solid #ff9500;
+  padding-bottom: 0.5rem;
+}
+
+/* 검색 박스 */
+.md-search__input {
+  border: 2px solid #ff9500;
+}
+
+.md-search__input:focus {
+  border-color: #ff8400;
+  box-shadow: 0 0 8px rgba(255, 149, 0, 0.3);
+}

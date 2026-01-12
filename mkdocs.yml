@@ -1,0 +1,64 @@
+site_name: HTTP 완벽가이드
+site_description: HTTP 완벽가이드 - 웹의 기초 기술 학습
+site_author: 학습 자료
+site_url: https://http-definitive-guide.netlify.app/
+docs_dir: docs
+site_dir: _site
+
+theme:
+  name: material
+  language: ko
+  palette:
+    primary: amber
+    accent: orange
+  font:
+    text: Noto Sans KR
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+nav:
+  - 홈: index.md
+  - 1장 HTTP 개관: ch01/01_HTTP_개관.md
+  - 2장 URL과 리소스: ch02/02_URL과_리소스.md
+  - 3장 HTTP 메시지: ch03/03_HTTP_메시지.md
+  - 4장 커넥션 관리: ch04/04_커넥션_관리.md
+  - 5장 웹 서버: ch05/05_웹_서버.md
+  - 6장 프락시: ch06/06_프락시.md
+  - 7장 캐시: ch07/07_캐시.md
+  - 8장 통합점 게이트웨이 터널 릴레이: ch08/08_통합점_게이트웨이_터널_릴레이.md
+  - 9장 웹 로봇: ch09/09_웹_로봇.md
+  - 10장 HTTP/2: ch10/10_HTTP_2.md
+  - 11장 클라이언트 식별과 쿠키: ch11/11_클라이언트_식별과_쿠키.md
+  - 12장 기본 인증: ch12/12_기본_인증.md
+  - 13장 다이제스트 인증: ch13/13_다이제스트_인증.md
+  - 14장 보안 HTTP: ch14/14_보안_HTTP.md
+  - 15장 엔터티와 인코딩: ch15/15_엔터티와_인코딩.md
+  - 16장 국제화: ch16/16_국제화.md
+  - 17장 내용 협상과 트랜스코딩: ch17/17_내용_협상과_트랜스코딩.md
+  - 18장 웹 호스팅: ch18/18_웹_호스팅.md
+  - 19장 배포 시스템: ch19/19_배포_시스템.md
+  - 20장 리다이렉션과 부하균형: ch20/20_리다이렉션과_부하균형.md
+  - 21장 로깅과 사용추적: ch21/21_로깅과_사용추적.md
+  - 퀴즈: 퀴즈.md
+
+extra_css:
+  - stylesheets/custom.css
+
+plugins:
+  - search:
+      lang: ko
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - codehilite
+
+copyright: '© 2026 HTTP 완벽가이드 학습'
